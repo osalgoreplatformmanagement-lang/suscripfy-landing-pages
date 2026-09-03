@@ -3728,6 +3728,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .stores-grid__item .storefront-demo__frame {
   width: 100%;
 }
+.stores-grid__item .storefront-demo__frame-body {
+  aspect-ratio: 10 / 7;
+}
+.stores-grid__item .storefront-demo__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 @media (max-width: 1023px) {
   .stores-grid {
     grid-template-columns: repeat(2, 1fr);
